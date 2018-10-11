@@ -8,11 +8,11 @@ let menuItem = `
 <label>${dish.title}</label>
 <h4>${dish.description}</h4>
 <p>${dish.price}</p>
-<img scr= "${dish.imageURL}">
+<img src= "${dish.imageURL}">
 </li>
 `
 
-menuList.insertAdjacentHTML('beforeend' ,menuItem)
+menuList.insertAdjacentHTML('beforeend',menuItem)
 
 
 }
